@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@+id/navigation_home">
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        tools:layout="@layout/fragment_home"/>
+    <item
+        android:id="@+id/navigation_workout"
+        android:title="Workout"
+        android:icon="@drawable/ic_calendar"
+        tools:layout="@layout/fragment_workout_calendar"/>
+    <item
+        android:id="@+id/navigation_profile"
+        android:title="Profile"
+        android:icon="@drawable/outline_person_outline_24"
+        tools:layout="@layout/fragment_profile"/>
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_home"
+        tools:layout="@layout/fragment_settings"/>
+
+<!--    <fragment-->
+<!--        android:id="@+id/homeFragment"-->
+<!--        android:name="com.sid1629603.every_move.fragments.HomeFragment"-->
+<!--        android:label="fragment_home"-->
+<!--        tools:layout="@layout/fragment_home" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/profileFragment2"-->
+<!--        android:name="com.sid1629603.every_move.fragments.ProfileFragment"-->
+<!--        android:label="fragment_profile"-->
+<!--        tools:layout="@layout/fragment_profile" />-->
+</menu>
